@@ -1,0 +1,24 @@
+#input {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+#input + label {
+    display: inline-block;
+    background-color: #205ef4;
+    font-family: sans-serif;
+    padding: 1rem;
+    font-size: 2rem;
+    border-radius: 0.5rem;
+    color: white;
+}
+
+#input:focus + label {
+    box-shadow: 0 0 1rem 0.25rem aqua;
+}
+
+.input-holder {
+    margin-bottom: 2rem;
+}
+
